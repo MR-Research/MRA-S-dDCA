@@ -18,8 +18,8 @@ This is a dDCA inspired intrusion detection model, developed as an Intrusion Det
 ## Usage:
 Provide the algorithm with your high-level network feature dataset "d" (such as the NSL-KDD, KDD99, UNSW-NB15).
 
-> You can get the UNSW-NB15 testing set here: https://research.unsw.edu.au/projects/unsw-nb15-dataset
-> You can get the NSL-KDD testing set here: https://www.unb.ca/cic/datasets/nsl.html
+> * You can get the UNSW-NB15 testing set here: https://research.unsw.edu.au/projects/unsw-nb15-dataset
+> * You can get the NSL-KDD testing set here: https://www.unb.ca/cic/datasets/nsl.html
 
 Provided features (dataset) "d" must be a table containing all (numeric) high-level network features available to the dataset. Non-real numeric values, such as categorical, logical, or string values are not allowed.
 The last three features of the dataset  "d" must be as follows:
