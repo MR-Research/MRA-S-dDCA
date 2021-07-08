@@ -6,14 +6,14 @@ Based on the work done by Greensmith in 2008 [1], adapted the segmentation conce
 This is a dDCA inspired intrusion detection model, developed as an Intrusion Detection System (IDS) approach.
 
 ## Parameters:
-**d**: High-level network feature dataset.
-**name**: Dataset name, used for storing results in file.
-**T**: Number of features to be selected for each signal category.
-**S**: Random number generator seed used to assign the migration threshold for the dendritic cell population.
-**m**: Segment size used by the S-dDCA.
-**p**: Dendritic cell population size.
-**w**: Wavelet used for the MODWT process.
-**verbose**: Display algorithm relevant information.
+* **d**: High-level network feature dataset.
+* **name**: Dataset name, used for storing results in file.
+* **T**: Number of features to be selected for each signal category.
+* **S**: Random number generator seed used to assign the migration threshold for the dendritic cell population.
+* **m**: Segment size used by the S-dDCA.
+* **p**: Dendritic cell population size.
+* **w**: Wavelet used for the MODWT process.
+* **verbose**: Display algorithm relevant information.
 
 ## Usage:
 Provide the algorithm with your high-level network feature dataset "d" (such as the NSL-KDD, KDD99, UNSW-NB15).
